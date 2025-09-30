@@ -1,0 +1,12 @@
+/* @theme hsmw-nc */
+
+@import "_hsmw-nc";
+
+@import url('data:text/css, .bespoke-progress-bar {background-color: rgba(0, 105, 180, 1) !important;}');
+
+:root {
+    --hsmw-theme-color: #8CAAEE;
+    --background-col: #303446;
+
+}
+
