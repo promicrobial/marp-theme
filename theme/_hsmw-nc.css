@@ -10,20 +10,24 @@
 /* == Imports == */
     @import "nord-nc";
     @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+    
+    /* Code syntax highlighting */
     /* @import url('https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css'); */
-    @import url('//unpkg.com/@catppuccin/highlightjs@1.0.1/css/catppuccin-frappe.css');
+    @import url('https://unpkg.com/@catppuccin/highlightjs@1.0.1/css/catppuccin-frappe.css');
     
     /* Bespoke Progress Bar */
 
-        @import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
+    @import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
 /* == Root == */
     :root {
+        /* color based on Catppuccin Frappe (https://github.com/catppuccin/catppuccin) */
         --hsmw-light-grey: #838BA7;
         --hsmw-dark-grey: #414559;
         --rosewater: #f2d5cf;
         --flamingo: #eebebe;
         --pink: #f4b8e4;
         --mauve: #ca9ee6;
+        --lavender: #BABBF1;
         --red: #e78284;
         --maroon: #ea999c;
         --peach: #ef9f76;
@@ -60,6 +64,7 @@
     figcaption {
         font-size: 10.5pt;
         color: var(--hsmw-theme-color);
+        padding-top: 10px !important;
     }
 
     img {
@@ -81,6 +86,11 @@
         margin-left: 1em;
         margin-top: -1em;
         margin-bottom: 1em;
+    }
+
+    img[alt~="small-bottom-left"] {
+        height: 100px;
+        display: block;
     }
 
     img[alt~="small"] {
@@ -170,39 +180,39 @@
             color: var(--hsmw-theme-color);
         }
 
-        /* Headings */
+    /* Headings */
 
-            h1 {
-                top: 0px; /* reduce the space above the heading*/
-                position: absolute;
-                color: var(--hsmw-theme-color);
-                font-size: 47px;
-                font-weight: 700;
-                height: 130px;
-                max-width: calc(100% - 160px);
-        
-                display: flex;
-                justify-content: flex-end;
-            }
-        
-            h1[data-auto-scaling] {
-                display: unset;
-                position: unset;
-            }
-        
-            h2 {
-                color: var(--hsmw-theme-color);
-            }
-        
-            h2,
-            h3 {
-                margin-top: 12px;
-                margin-bottom: 8px;
-            }
-        
-            h1>strong::after {
-                content: "\00a0";
-            }
+        h1 {
+            top: 0px; /* reduce the space above the heading*/
+            position: absolute;
+            color: var(--hsmw-theme-color);
+            font-size: 47px;
+            font-weight: 700;
+            height: 130px;
+            max-width: calc(100% - 160px);
+    
+            display: flex;
+            justify-content: flex-end;
+        }
+    
+        h1[data-auto-scaling] {
+            display: unset;
+            position: unset;
+        }
+    
+        h2 {
+            color: var(--hsmw-theme-color);
+        }
+    
+        h2,
+        h3 {
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+    
+        h1>strong::after {
+            content: "\00a0";
+        }
 
 /* == Tables == */
 
@@ -546,8 +556,7 @@
         color: var(--base);
         z-index: 1000;
     }
-
-/* == Sections == */
+    /* == Sections == */
 
     section {
         background: var(--background-col);
@@ -838,27 +847,19 @@
 
         section.end,
         section.end-bg {
-            color: var(--lavender);
             padding-right: 515px;
             padding-left: 90px;
             padding-top: 185px;
             font-size: 14pt;
-            /* var(--lavender); link color */
             --color-accent-fg: var(--lavender);
             --fgColor-accent: var(--lavender);
         }
 
         section.end>h1,
         section.end-bg>h1 {
-            color: var(--lavender);
             font-size: 60pt;
             height: 152px;
             align-items: flex-end;
-        }
-
-        section.end>h2,
-        section.end-bg>h2 {
-            color: var(--lavender);
         }
 
         section.end-bg::before {
