@@ -1,12 +1,63 @@
 /* @theme cpnh */
 
-@import "_cpnh";
+@import "_hsmw-nc";
 
 @import url('data:text/css, .bespoke-progress-bar {background-color: rgba(0, 105, 180, 1) !important;}');
 
 :root {
     --hsmw-theme-color: var(--red);
     --background-col: var(--base);
+    
+    /* The Cornell Human Ecology colour palette and CPNH gray*/
 
+    --hsmw-light-grey: #526260;
+    --hsmw-dark-grey: #526260;
+    --red: #B31B1B;
+    --lavender: #EFC2FF;
+    --mauve: #6400A4;
+    --blue: #1C114E;
+    --maroon: #FA5E53;
+    --peach: #B45E3C;
+    --yellow: #F5F060;
+
+    --rosewater: var(--red);
+    --flamingo: var(--red);
+    --pink: var(--lavender);
+    --green: var(--peach);
+    --teal: var(--blue);
+    --sky: var(--blue);
+    --sapphire: var(--blue);
+
+    --base: #FFFFFF;    /* Base color for main backgrounds */
+    --mantle: #FFFFFF;  /* Slightly darker background */
+    --crust: #FFFFFF;   /* Darkest background, for borders */
+
+    --surface0: #FFFFFF; /* Lighter background for UI elements */
+    --surface1: #526260; /* Even lighter background for hover states */
+    --surface2: #526260; /* For selected items */
+
+    --text: #222222;     /* Main text color */
+    --subtext1: #222222; /* Secondary text */
+    --subtext0: #222222; /* Tertiary text */
+
+    --overlay0: #222222; /* For disabled or less prominent elements */
+    --overlay1: #222222;
+    --overlay2: #222222;
+
+    /* Obsidian variables */
+
+    --marpit-root-font-size: 14pt; /* default font size for after section footer */
+}
+
+section:is(.title, .title-bg, .end-bg) > :is(h1, h2, header, footer) {
+    color: var(--text) !important;
+}
+
+section.agenda::before{
+    color: var(--text) !important;
+}
+
+section:is(.chapter, .agenda) > :is(h1, h2, header, footer) {
+    color: var(--hsmw-theme-color) !important;
 }
 

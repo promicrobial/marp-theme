@@ -51,6 +51,7 @@ This is what a **normal slide** will look like. *Special slides* can be set usin
 <!-- _class: agenda -->
 <!-- _class: blank-->
 <!-- _class: nofooter -->
+<!-- _class: nologo -->
 <!-- _class: multicolumn -->
 <!-- _class: chapter -->
 <!-- _class: end -->
@@ -89,6 +90,28 @@ This is a blank slide to show off your pretty graphs but there's no way to give 
 Using the `nofooter` class will create a default slide without the slide number and footer text specified in the YAML frontmatter.
 
 ![alt text](_assets/nofooter.svg)
+
+---
+
+# Maybe just the logo?
+<!-- _class: nofooter -->
+
+Add a logo by adding the CSS to the YAML frontmatter. When needed, use the `nologo` class to remove logos from the bottom right corner.
+
+```css
+style: |
+  section::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 1060px;
+    width: 180px;
+    height: 160px;
+    background: url('./_assets/cpnh-logo-transparent.svg') no-repeat center;
+    background-size: contain;
+    padding: 0;
+  }
+```
 
 ---
 

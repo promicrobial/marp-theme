@@ -305,7 +305,7 @@ img[alt~="title-bg"] {
 
 /* == Footnotes == */
     footnote {
-        border-top: 0.1em solid var(--#838BA7);
+        border-top: 0.1em solid var(--overlay2);
         border-left: 0;
         font-size: 60%;
         margin-top: auto;
@@ -320,7 +320,7 @@ img[alt~="title-bg"] {
     code {
         background-color: var(--surface0);
         border-radius: 10px;
-        color: var(--peach);
+        color: var(--text);
         font-family: monospace;
     }
 
@@ -337,7 +337,8 @@ img[alt~="title-bg"] {
         padding: 1em 1.5em;
         display: block;
         word-wrap: break-word;
-        border-left: 3px solid #f36d33;
+        border: 3px solid var(--peach);
+        border-left: 10px solid var(--peach);
     }
 
     pre code {
@@ -640,6 +641,14 @@ img[alt~="title-bg"] {
         }
 
     /* Title Slide */
+        section.title::before,
+        section.blank::before,
+        section.nofooter::before,
+        section.chapter::before, 
+        section.nologo::before {
+            background-image: none !important;
+        }
+
         section.title,
         section.title-bg {
             padding-left: 80px;
@@ -867,7 +876,7 @@ img[alt~="title-bg"] {
         section.end-bg {
             padding-right: 515px;
             padding-left: 90px;
-            padding-top: 185px;
+            padding-top: 220px;
             font-size: 14pt;
             --color-accent-fg: var(--lavender);
             --fgColor-accent: var(--lavender);
