@@ -641,6 +641,14 @@ img[alt~="title-bg"] {
         }
 
     /* Title Slide */
+        section.title::before,
+        section.blank::before,
+        section.nofooter::before,
+        section.chapter::before, 
+        section.nologo::before {
+            background-image: none !important;
+        }
+
         section.title,
         section.title-bg {
             padding-left: 80px;
@@ -686,6 +694,7 @@ img[alt~="title-bg"] {
             width: 100%;
             height: 100%;
             z-index: -1;
+            background-image: none !important;
         }
 
         section.title::after,
@@ -854,6 +863,7 @@ img[alt~="title-bg"] {
             color: var(--lavender);
             background-color: var(--hsmw-theme-color);
             content: "Agenda";
+            background-image: none !important;
         }
 
         section[lang~="en-US"].agenda::before {
@@ -886,6 +896,7 @@ img[alt~="title-bg"] {
             width: 100%;
             height: 100%;
             z-index: -1;
+            background-image: none !important;
         }
 
 
