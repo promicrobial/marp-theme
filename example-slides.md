@@ -31,6 +31,16 @@ version: v1.0
 ### H3 - You Don't want This
 
 ---
+<!-- _class: title -->
+
+# Title slide with custom background and logo
+
+## See also `cpnh` theme
+
+![title-bg](./_assets/cpnh-slide-v2.svg)
+![title-logo](./_assets/cpnh-logo-transparent.svg)
+
+---
 
 # A Typical Slide
 
