@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1436.6421"
+   height="380.74573"
+   viewBox="0 0 1436.6422 380.74572"
+   sodipodi:docname="CPNH-logo-2025.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="1.5476005e-20"
+       y="0"
+       width="1436.6422"
+       height="380.74573"
+       id="page1"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC0"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(-554.1781,-516.8829)">
+    <g
+       id="g1"
+       transform="translate(-1038.8405,543.87234)">
+      <g
+         id="g2">
+        <text
+           id="text1"
+           xml:space="preserve"
+           x="1726.6304"
+           y="218.92561"
+           style="font-size:16px;stroke-width:1.33333"><tspan
+             id="tspan1"
+             style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:133.333px;font-family:Inter;writing-mode:lr-tb;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+             x="1726.6304"
+             dx="0 0 0 0 -1.3066666 0 0 0 -3.2 0 0 0 0 -2.96"
+             y="218.92561">Center for Precision </tspan><tspan
+             id="tspan2"
+             style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:133.333px;font-family:Inter;writing-mode:lr-tb;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+             x="1726.6304"
+             dx="0 0 0 0 1.3733332 0 0 0 0 0 0 0 0 0 0 0 1.1866666 0 1.9466667"
+             y="352.25891">Nutrition and Health</tspan></text>
+        <path
+           id="path2"
+           d="M 1699.6852,352.25536 H 1593.0186 V -21.077969 h 106.6666 z"
+           style="fill:#b31f24;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333" />
+        <text
+           id="text2"
+           xml:space="preserve"
+           transform="rotate(-90)"
+           x="-336.63907"
+           y="1680.2111"
+           style="font-size:16px;stroke-width:1.33333"><tspan
+             id="tspan3"
+             style="font-variant:normal;font-weight:700;font-stretch:normal;font-size:96px;font-family:Inter;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+             x="-336.63907"
+             y="1680.2111">Cornell</tspan></text>
+        <text
+           id="text3"
+           xml:space="preserve"
+           x="1726.6304"
+           y="85.588943"
+           style="font-size:16px;stroke-width:1.33333"><tspan
+             id="tspan4"
+             style="font-variant:normal;font-weight:700;font-stretch:normal;font-size:146.667px;font-family:Inter;writing-mode:lr-tb;fill:#b31f24;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+             x="1726.6304"
+             y="85.588943">Joan Klein Jacobs</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
