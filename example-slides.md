@@ -39,6 +39,7 @@ version: v1.0
 
 ![title-bg](./_assets/cpnh-slide-v2.svg)
 ![title-logo](./_assets/cpnh-logo-transparent.svg)
+![title-logo-top](./_assets/cpnh-logo-transparent.svg)
 
 ---
 
