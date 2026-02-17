@@ -830,8 +830,7 @@ img[alt~="title-bg"] {
     /* Agenda Slide */
 
         section.agenda {
-            padding-left: 430px;
-            padding-top: 60px;
+            padding-left: 460px;
             font-size: 24pt;
             flex-flow: nowrap;
         }
