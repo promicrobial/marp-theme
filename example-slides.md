@@ -154,6 +154,33 @@ You can change column ratios using this CSS ---------------------------->
 
 ---
 
+# Embedded Multicolumn
+
+<div class="multicolumn"><div>
+
+  - Column 1
+  ![center height:300px](_assets/graph.svg)
+
+  </div><div>
+
+  - Column 2
+
+    <div class="multicolumn"><div>
+
+      ![center small](_assets/graph.svg)
+      <figcaption>Subcolumn 1</figcaption>
+      
+      </div><div>
+
+      ![center small](_assets/graph.svg)
+      <figcaption>Subcolumn 2</figcaption>
+    
+    </div></div>
+
+</div><div>
+
+---
+
 <!-- _class: chapter -->
 
 # This is a Nice Transition Slide
